@@ -12,6 +12,7 @@ class MealList extends Component {
             selectedMeals: []
 
         };
+
         AuthenticationService.setupAxiosInterceptorsForSavedToken();
     }
 
@@ -20,7 +21,9 @@ class MealList extends Component {
     };
 
     refreshMeals = () => {
+
         MealDataService.retrieveAllMeals()
+
             .then(response => {
                 this.setState({selectableMeals: response.data});
             })

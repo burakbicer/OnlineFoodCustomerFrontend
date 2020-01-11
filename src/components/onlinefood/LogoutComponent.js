@@ -1,3 +1,4 @@
+import {withRouter} from "react-router-dom";
 import React,{Component} from 'react';
 
 class LogoutComponent extends Component {
@@ -13,4 +14,4 @@ class LogoutComponent extends Component {
     }
 }
 
-export default LogoutComponent;
+export default withRouter(LogoutComponent);

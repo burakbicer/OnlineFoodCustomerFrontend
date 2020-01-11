@@ -3,9 +3,7 @@ import AuthenticationService from "./AuthenticationService";
 import OrdersService from "../../api/OrdersService";
 import OrderHistoryTable from "./OrderHistoryTable";
 
-
 class OrderHistory extends Component {
-
 
     constructor(props) {
         super(props);

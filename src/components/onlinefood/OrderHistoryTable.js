@@ -14,7 +14,6 @@ const useStyles = makeStyles({
     },
 });
 
-
 const OrderHistoryTable = (rows) => {
     const classes = useStyles();
     return (rows.rows.length > 0 &&

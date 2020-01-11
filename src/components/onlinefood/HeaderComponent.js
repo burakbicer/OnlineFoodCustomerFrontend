@@ -12,7 +12,7 @@ class HeaderComponent extends Component {
                 <nav className="navbar navbar-expand-md navbar-dark bg-dark">
                     <div><a href="http://localhost:3000" className="navbar-brand">Online Food App</a></div>
                     <ul className="navbar-nav">
-                        {isUserLoggedIn && <li><Link className="nav-link" to="/meallist">Meals</Link></li>}
+                        {isUserLoggedIn && <li><Link className="nav-link" to="/meallist">Meals </Link></li>}
                     </ul>
 
                     <ul className="navbar-nav">
